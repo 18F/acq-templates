@@ -104,10 +104,10 @@ agreement.
 The Servicing Agency shall deliver to the Requesting Agency the
 following:
 
-  **Item**                             **Due By**
-  ------------------------------------ -------------------------------------------------
-  Micro-purchase auctions              At a date mutually agreed upon by both parties.
-  Evaluation of auction deliverables   &lt; 7 business days from completion of auction
+| Item | Due By |
+|------------------------------------------------------------------------------------------|----------------------------------------------|
+| Micro-purchase auctions | {{firstItemStartDate}} |
+| Delivery of Minimally Viable Product (MVP) period of performance of Agile BPA Task Order | < 7 business days from completion of auction |
 
 ### 6.0. PROJECT STATUS AND REPORTING
 

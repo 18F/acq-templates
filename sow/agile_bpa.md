@@ -128,13 +128,13 @@ agreement.
 The Servicing Agency shall deliver to the Requesting Agency the
 following:
 
-  **Item**                                                                                **Due By**
-  --------------------------------------------------------------------------------------- ---------------------------------------------------------------------
-  Solicitation (RFx) Workshop                                                             At a date mutually agreed upon following conclusion of discovery
-  Written acquisition strategy including any feedback on existing procurement artifacts   &lt; 14 business days from workshop start
-  New solicitation based on objectives (RFx)                                              &lt; 21 business days from workshop conclusion
-  Management of Vendor Selection Process                                                  &lt;14 days after RFx launch, unless otherwise agreed upon
-  Delivery of Minimally Viable Product (MVP)                                              Within initial 90-day period of performance of Agile BPA Task Order
+| Item | Due By |
+|------------------------------------------------------------------------------------------------------------|-----------------------|
+| Solicitation (RFx) Workshop agreed upon following conclusion of discovery | {{firstItemStartDate}} |
+|  Written acquisition strategy including any feedback on existing procurement artifacts from workshop start | < 14 business |
+| New solicitation based on objectives (RFx) from workshop conclusion | < 21 business |
+| Management of Vendor Selection Process | <14 days after RFx |
+| Delivery of Minimally Viable Product (MVP) period of performance of Agile BPA Task Order | Within initial 90-day | period of performance of Agile BPA Task Order
 
 ### 6.0.PROJECT STATUS AND REPORTING
 

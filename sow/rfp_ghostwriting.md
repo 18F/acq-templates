@@ -114,11 +114,11 @@ agreement.
 The Servicing Agency shall deliver to the Requesting Agency the
 following:
 
-  **Item**                                                                                                 **Due By**
-  -------------------------------------------------------------------------------------------------------- -------------------------------------------------
-  Solicitation (RFx) Workshop                                                                              At a date mutually agreed upon by both parties.
-  Written acquisition strategy                                                                             &lt; 7 business days from workshop start
-  New drafted solicitation (RFx) based on workshop outputs and consensus around strategy recommendations   &lt; 20 business days from workshop conclusion
+| **Item **                                                                                                                                | **Due By **          |
+|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Solicitation (RFx) Workshop agreed upon by both parties.                                                                             | {{workshopDate}} |
+| Written acquisition strategy,< 7 business days from workshop start                                                                   | < 7 business     |
+| New drafted solicitation (RFx) based on workshop outputs and consensus around strategy recommendations days from workshop conclusion | < 20 business    |
 
 ### 6.0. PROJECT STATUS AND REPORTING
 
