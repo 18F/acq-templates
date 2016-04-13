@@ -4,7 +4,7 @@
 
 # *and*
 
-# {Requesting_Agency.name}
+# {{requestingAgency.name}}
 
 ## Form 7600B, Attachment A
 
@@ -23,11 +23,11 @@ managers and other leaders who need assistance in procuring software
 that use modern development techniques (e.g., agile, lean, open source).
 
 For purposes of this Statement of Work (SOW), the Requesting Agency is
-the {Requesting_Agency_Name}. The Requesting Agency requires
+the {{requestingAgency.name}}. The Requesting Agency requires
 the services of GSA through 18F to assist in the preparation of
 essential documents, such as the solicitation, for the procurement of
 information technology to enable several enterprise endeavors related to
-separate acquisition activities. {Requesting_Agency.objective}.
+separate acquisition activities. {{requestingAgency.objective}}.
 
 Through this agreement, GSA will complete a discovery sprint, scoping
 workshop, drafting process, and a technical evaluation with the
@@ -113,7 +113,7 @@ B.  Any and all relevant procurement and/or technical related documents; and,
 
 C.  Travel to GSA’s facility at 1800 F Street, NW, Washington, DC 20405 or alternatively to the Requesting Agency’s desired location; however, alternative methods of collaboration may be utilized depending on specific conditions or constraints.
 
-**4.0 REIMBURSEMENT**
+### 4.0 REIMBURSEMENT
 
 Reimbursement for the above listed deliverables is to be provided on an
 actual cost basis. Actual cost means GSA’s direct and indirect costs,
@@ -123,7 +123,7 @@ non-labor costs, including any infrastructure/hosting, contracted
 services, pre-approved travel, and related expenses under this
 agreement.
 
-**5.0 DELIVERABLE TIMELINE**
+### 5.0 DELIVERABLE TIMELINE
 
 The Servicing Agency shall deliver to the Requesting Agency the
 following:
