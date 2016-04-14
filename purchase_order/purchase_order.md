@@ -1,4 +1,4 @@
-# RFQ for the P{agency.fullName}}
+# RFQ for the {{agency.fullName}}
 ### {{date}}</h3>
 
 ### Table of Contents
