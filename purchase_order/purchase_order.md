@@ -2,7 +2,7 @@
 ### {{date}}</h3>
 
 ### Table of Contents
-{#list sections}
+{{#list sections}}
 * {{this}}
 {{/each}}
 
