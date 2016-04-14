@@ -116,7 +116,7 @@ following:
 
 | **Item **                                                                                                                                | **Due By **          |
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Solicitation (RFx) Workshop agreed upon by both parties.                                                                             | {{workshopDate}} |
+| Solicitation (RFx) Workshop agreed upon by both parties.                                                                             | {{firstItemStartDate}} |
 | Written acquisition strategy,< 7 business days from workshop start                                                                   | < 7 business     |
 | New drafted solicitation (RFx) based on workshop outputs and consensus around strategy recommendations days from workshop conclusion | < 20 business    |
 
