@@ -1,0 +1,13 @@
+{
+  technical_evaluators: [
+    {name: "John Doe",org:"18F",title:"innovation specialist"},
+    {name: "Jane Doe",org:"client agency",title:"innovation specialist"},
+    {name: "Joseph Doe",org:"18F",title:"innovation specialist"},
+    {name: "Jackie Doe",org:"18F",title:"innovation specialist"}
+  ],
+  evaluation_factors: [
+    {factor: "Technical Understanding and Approach"},
+    {factor: "Key Personnel"},
+    {factor: "Similar Exerience"}
+  ]
+}
