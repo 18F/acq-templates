@@ -4,7 +4,8 @@
 ### Table of Contents
 {{#list sections}}
 * {{this}}
-{{/each}}
+
+{{/list}}
 
 Note: All sections of this RFQ will be incorporated into the contract except the Statement of Objectives, Instructions, and Evaluation Factors.
 
@@ -15,7 +16,7 @@ Note: All sections of this RFQ will be incorporated into the contract except the
 
 {{this}}
 
-{{/list}}
+{{/each}}
 
 # 2. Services
 ## Brief Description of Services & Type of Contract
@@ -96,13 +97,15 @@ The primary users will include the following:
 The primary users may include any of the following:
 
 {{#each objectives.stockUsers}}
+
 1. {{this}}
+
 {{/each}}
 
 {{/if}}
 
 ## User Research
-{objectives.userResearch}
+{{objectives.userResearch}}
 
 {{#if objectives.whatPeopleNeed}}
 ## Understand What People Need
@@ -114,7 +117,7 @@ The primary users may include any of the following:
 
 ## Address the whole experience, from start to finish
 
-{objectives.startToFinish}
+{{objectives.startToFinish}}
 
 {{/if}}
 
@@ -122,17 +125,24 @@ The primary users may include any of the following:
 {{objectives.userAccess}}
 
 {{#if objectives.universalRequirements}}
+
 # Universal Requirements
+
 {{#each objectives.universalRequirements}}
+
 ## {{title}}
 
 {{body}}
+
 {{/each}}
+
 {{/if}}
 
 
 ## Specific Tasks and Deliverables
+
 This {{doc_type}} will require the following services:
+
 {{#each deliverables}}
 
 {{display}}
@@ -146,6 +156,7 @@ This {{doc_type}} will require the following services:
 {{#each deliverables}}
 
 ### {{display}}
+
 {{text}}
 
 {{/each}}
@@ -170,7 +181,9 @@ The contractor is not required to have a full-time working staff presence on-sit
 {{/if}}
 
 ## Kick Off Meeting
+
 {{#if_eq objectives.kickOffMeeting 'none'}}
+
 A formal kick-off meeting will not be required.
 
 
@@ -201,6 +214,7 @@ Contractor personnel will not be required to have a security clearance.
 {{else}}
 
 Some contractor personnel will be required to have a clearance at the level of {{key_personnel.clearanceRequired}}.
+
 {{/if}}
 
 {{#if key_personnel.onSiteRequired}}
@@ -218,7 +232,7 @@ An onsite presence by the contractor will not be required.
 
 {{else}}
 
-{key_personnel.notEvaluateKeyPersonnel}
+{{key_personnel.notEvaluateKeyPersonnel}}
 
 {{/if}}
 
@@ -228,7 +242,7 @@ An onsite presence by the contractor will not be required.
 
 # 5. Invoicing & Funding
 
-{invoicing_funding.invoicing}
+{{invoicing_funding.invoicing}}
 
 <p>The Contractor shall submit an original invoice for payment to the following office:
 
@@ -253,13 +267,17 @@ ADD BILLING ADDRESS HERE
 
 ## Collaboration Environment
 {{#if inspection_and_delivery.workspace}}
-<p>{agency.name} is currently using {{inspection_and_delivery.workspace}} as their primary collaborative workspace tool. The contractor is required to establish a collaborative workspace using either this tool or another that both the contractor and the CO can agree upon.
+
+{{agency.name}{ is currently using {{inspection_and_delivery.workspace}} as their primary collaborative workspace tool. The contractor is required to establish a collaborative workspace using either this tool or another that both the contractor and the CO can agree upon.
+
 {{/if}}
 
 {{inspection_and_delivery.deliveringDeliverables}}
 
-{{#if transitionActivities}
+{{#if transitionActivities}}
+
 ## Transition Activities
+
 {{inspection_and_delivery.TransitionActivities}}
 {{/if}}
 
@@ -268,13 +286,15 @@ ADD BILLING ADDRESS HERE
 For the completion of this task, the {{agency.fullName}} will provide access to the following stakeholders:",
 
 {{#each government_roles.roles}}
+
 ## {{title}}
 
 {{text}}
 
-{/each}
+{{/each}}
 
 {{#if special_requirements}}
+
 # 8. Special Requirements
 
 {{special_requirements.stakeholderIntro}}
@@ -285,12 +305,13 @@ For the completion of this task, the {{agency.fullName}} will provide access to 
 
 {{text}}
 
-{/each}
+{{/each}}
+
 {{/if}}
 
 
 # 9. Additional Contract Clauses
-{contract_clauses.text}
+{{contract_clauses.text}}
 
 {{#if appendix}}
 
@@ -300,4 +321,5 @@ For the completion of this task, the {{agency.fullName}} will provide access to 
 {{this}}
 
 {{/each}}
+
 {{/if}}
