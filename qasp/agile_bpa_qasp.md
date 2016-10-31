@@ -44,7 +44,7 @@ Deliverable or Required Services Performance Standard(s):
 
   **Deliverable or Required Services** | **Performance Standard(s)** | **Acceptable Quality Level (AQL)** | **Method of Surveillance**
    ----------- | ---------------- | -------------- | ---------------
-   Tested Code | Code delivered under the order must have substantial test code coverage and a clean code base. | Minimum of 90% test coverage and Code Climate GPA of 3.0 | https://codeclimate.com
+   Tested Code | Code delivered under the order must have substantial test code coverage and a clean code base. | Minimum of 90% test coverage of all relevant code | Combination of manual review and automated testing, using agreed-upon publicly-available SaaS products
    Accessible | Client-side rendering must conform with section 508 standards. | 0 errors reported for 508 Standards using an automated scanner and 0 errors reported in manual testing |  http://squizlabs.github.io/HTML_CodeSniffer/ or https://github.com/pa11y/pa11y
    Deployed | Code must successfully build and deploy into staging environment. | Successful build with a single command | Combination of manual review and automatic testing
    Documented | All dependencies (and licenses for dependencies) are listed and all major functions are documented. | All dependencies are listed and the licenses are documented. Software/source code is documented. System diagram is provided. | Combination of manual review and automatic testing
