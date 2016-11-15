@@ -45,24 +45,24 @@ Deliverable or Required Services Performance Standard(s):
    Accessible | Client-side rendering must conform with section 508 standards and WCAG2AA standards. | 0 errors reported for WCAG2AA using an automated scanner, 0 errors reported in manual testing, and all warnings confirmed as non-issues |  http://squizlabs.github.io/HTML_CodeSniffer/ or https://github.com/pa11y/pa11y
    Deployed | Code must successfully build and deploy into staging environment. | Successful build with a single command | Combination of manual review and automatic testing
    Documented | All dependencies (and licenses for dependencies) are listed and all major functions are documented. | All dependencies are listed and the licenses are documented. Software/source code is documented. System diagram is provided. | Combination of manual review and automatic testing
-   Available | Code must be stored in a version-controlled open-source repository. | All of the code needed to run project must be publicly available. | 18F will assess code availability by installing and running the project on a fresh machine.
-   User research | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end). |  Artifacts from usability testing and/or other research methods with end-users are available at the end of every applicable sprint, in accordance with the vendor’s research plan. | 18F will evaluate the artifacts based on a research plan provided by the vendor at the end of the second sprint.
+   Available | Code must be stored in a version-controlled open-source repository. | All of the code needed to run project must be publicly available. | TTS will assess code availability by installing and running the project on a fresh machine.
+   User research | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end). |  Artifacts from usability testing and/or other research methods with end-users are available at the end of every applicable sprint, in accordance with the vendor’s research plan. | TTS will evaluate the artifacts based on a research plan provided by the vendor at the end of the second sprint.
    Secure | Code must be free of medium- and high-level static and dynamic security vulnerabilities | Clean tests from a static testing SaaS, such as Gemnasium, and from OWASP ZAP, and/or documentation explaining any false positives. |  https://pages.18f.gov/before-you-ship/
 
 PROCEDURES
 ----------
 
-The COR/ACOR, along with the 18F Product Lead and the product owner, will
+The COR/ACOR, along with the TTS Product Lead and the product owner, will
 inspect all tasks required by the call order to ensure contractor compliance
 with the call order requirements at the conclusion of each sprint, which shall
 have a length of two weeks or less. Delivery of the code will occur by pull
-request from the contractor’s repository to the 18F repository. If inspection
+request from the contractor’s repository to the TTS repository. If inspection
 results are satisfactory, the pull request will be merged; otherwise,
 deficiencies will be noted in the pull request or through issues as described
 below. The COR/ACOR may find the delivery satisfactory even though further work
 is required, provided that the specific requirements of the sprint are met.
 
-At the conclusion of each sprint, the COR/ACOR, along with the 18F Product Lead
+At the conclusion of each sprint, the COR/ACOR, along with the TTS Product Lead
 and the product owner, will review the completed user stories and related
 functionality. Incomplete or inadequate code and user stories will be noted in a
 mutually agreed-upon issue tracker, such as Trello or GitHub Issues, and links
@@ -78,7 +78,7 @@ followed to document discrepancies and to assess overall performance.
 If any of the services do not conform to the call order requirements, the
 COR/ACOR may require the contractor to perform the services again in conformity
 with call order requirements. Any user stories that are not accepted must be
-completed in the next sprint, unless the product owner and 18F product manager
+completed in the next sprint, unless the product owner and TTS product manager
 agree to move it to a later sprint. The COR/ACOR shall not certify satisfactory
 performance for the call order until all defects have been corrected. When the
 defects in services cannot be corrected by re-performance, the Government may:
