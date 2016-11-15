@@ -7,37 +7,34 @@ PERFORMANCE BASED QUALITY ASSURANCE SURVEILLANCE PLAN (QASP)
 INTRODUCTION
 ------------
 
-This Quality Assurance Surveillance Plan (QASP) has been developed to
-evaluate contractor actions while implementing the Performance Work
-Statement (PWS). It is designed to provide an effective surveillance
-method of monitoring contractor performance for each listed objective on
-the Performance Requirements Matrix in the call order. It also provides
-a systematic method to evaluate the services the contractor is required
-to furnish.
+This Quality Assurance Surveillance Plan (QASP) has been developed to evaluate
+contractor actions while implementing the Performance Work Statement (PWS). It
+is designed to provide an effective surveillance method of monitoring contractor
+performance for each listed objective on the Performance Requirements Matrix in
+the call order. It also provides a systematic method to evaluate the services
+the contractor is required to furnish.
 
 STANDARD
 --------
 
-The contractor is responsible for management and quality control actions
-to meet the terms of the call order. The role of the COR/ACOR is quality
-assurance to ensure call order standards are achieved. The contractor
-shall perform all work required in a satisfactory manner in accordance
-with the requirements of the PWS. The COR/ACOR shall notify the CO for
-appropriate action if it is likely that the contractor will not achieve
-successful final delivery of the software code in accordance with the
-performance objectives and acceptable quality levels (AQLs) identified
-below.
+The contractor is responsible for management and quality control actions to meet
+the terms of the call order. The role of the COR/ACOR is quality assurance to
+ensure call order standards are achieved. The contractor shall perform all work
+required in a satisfactory manner in accordance with the requirements of the
+PWS. The COR/ACOR shall notify the CO for appropriate action if it is likely
+that the contractor will not achieve successful final delivery of the software
+code in accordance with the performance objectives and acceptable quality levels
+(AQLs) identified below.
 
 PERFORMANCE REQUIREMENTS MATRIX
 -------------------------------
 
-The COR/ACOR will evaluate the performance objectives through
-surveillance as reflected below by reviews and acceptance of work
-products and services. As indicated, the COR/ACOR will assess progress
-towards the final delivered software code. Note that the performance
-requirements listed below are required for the final deliverable.
-However, the sprints and incremental delivery of code will be assessed
-by the Government to ensure that the contractor is on a path to
+The COR/ACOR will evaluate the performance objectives through surveillance as
+reflected below by reviews and acceptance of work products and services. As
+indicated, the COR/ACOR will assess progress towards the final delivered
+software code. Note that the performance requirements listed below are required
+for the final deliverable. However, the sprints and incremental delivery of code
+will be assessed by the Government to ensure that the contractor is on a path to
 successful final delivery.
 
 Deliverable or Required Services Performance Standard(s):
@@ -55,61 +52,55 @@ Deliverable or Required Services Performance Standard(s):
 PROCEDURES
 ----------
 
-The COR/ACOR, along with the 18F Product Lead and the product owner,
-will inspect all tasks required by the call order to ensure contractor
-compliance with the call order requirements at the conclusion of each
-sprint, which shall have a length of two weeks or less. Delivery of the code will
-occur by pull request from the contractor’s repository to the 18F
-repository. If inspection results are satisfactory, the pull request
-will be merged; otherwise, deficiencies will be noted in the pull
-request or through issues as described below. The COR/ACOR may find the
-delivery satisfactory even though further work is required, provided
-that the specific requirements of the sprint are met.
+The COR/ACOR, along with the 18F Product Lead and the product owner, will
+inspect all tasks required by the call order to ensure contractor compliance
+with the call order requirements at the conclusion of each sprint, which shall
+have a length of two weeks or less. Delivery of the code will occur by pull
+request from the contractor’s repository to the 18F repository. If inspection
+results are satisfactory, the pull request will be merged; otherwise,
+deficiencies will be noted in the pull request or through issues as described
+below. The COR/ACOR may find the delivery satisfactory even though further work
+is required, provided that the specific requirements of the sprint are met.
 
-At the conclusion of each sprint, the COR/ACOR, along with the 18F
-Product Lead and the product owner, will review the completed user
-stories and related functionality. Incomplete or inadequate code and
-user stories will be noted in a mutually agreed-upon issue tracker, such
-as Trello or GitHub Issues, and links to each issue shared with the CO.
-The contractor may respond in that tracker as appropriate, addressing
-the accuracy and validity of the defect as well as any planned
-corrective action (if not already noted). The contractor team will
+At the conclusion of each sprint, the COR/ACOR, along with the 18F Product Lead
+and the product owner, will review the completed user stories and related
+functionality. Incomplete or inadequate code and user stories will be noted in a
+mutually agreed-upon issue tracker, such as Trello or GitHub Issues, and links
+to each issue shared with the CO. The contractor may respond in that tracker as
+appropriate, addressing the accuracy and validity of the defect as well as any
+planned corrective action (if not already noted). The contractor team will
 discuss and document actions to prevent recurrence in their sprint
 retrospectives.
 
-At the conclusion of the period of performance, a similar procedure will
-be followed to document discrepancies and to assess overall performance.
+At the conclusion of the period of performance, a similar procedure will be
+followed to document discrepancies and to assess overall performance.
 
-If any of the services do not conform to the call order requirements,
-the COR/ACOR may require the contractor to perform the services again in
-conformity with call order requirements. Any user stories that are not
-accepted must be completed in the next sprint, unless the product owner
-and 18F product manager agree to move it to a later sprint. The COR/ACOR
-shall not certify satisfactory performance for the call order until all
-defects have been corrected. When the defects in services cannot be
-corrected by re-performance, the Government may:
+If any of the services do not conform to the call order requirements, the
+COR/ACOR may require the contractor to perform the services again in conformity
+with call order requirements. Any user stories that are not accepted must be
+completed in the next sprint, unless the product owner and 18F product manager
+agree to move it to a later sprint. The COR/ACOR shall not certify satisfactory
+performance for the call order until all defects have been corrected. When the
+defects in services cannot be corrected by re-performance, the Government may:
 
-1)  Require the contractor to take necessary action to ensure that
-    future performance conforms to call order requirements; and,
+1.  Require the contractor to take necessary action to ensure that future
+performance conforms to call order requirements; and,
 
-2)  Reduce the call order price to reflect the reduced value of the
-    services performed. The COR/ACOR shall, in addition to providing
-    documentation to the CO, maintain a complete quality assurance file.
-    The file will contain copies of all reports, evaluations,
-    recommendations, and any actions relating to the Government’s
-    performance of the quality assurance function, including originals
-    of all surveillance activity checklists. All such records will be
-    retained for the life of the call order. The COR/ACOR shall forward
-    these records to the CO at completion or termination of the
-    call order.
+1.  Reduce the call order price to reflect the reduced value of the services
+performed. The COR/ACOR shall, in addition to providing documentation to the CO,
+maintain a complete quality assurance file. The file will contain copies of all
+reports, evaluations, recommendations, and any actions relating to the
+Government’s performance of the quality assurance function, including originals
+of all surveillance activity checklists. All such records will be retained for
+the life of the call order. The COR/ACOR shall forward these records to the CO
+at completion or termination of the call order.
 
 ACCEPTANCE OF SERVICES
 ----------------------
 
-Acceptance of services shall be based upon compliance with performance
-standards described in the PWS and surveillance procedures described in
-this QASP. Before approving/certifying any contractor invoices, the
-COR/ACOR will verify that all invoiced services have been performed in
-compliance with call order requirements. The COR/ACOR shall not certify
-satisfactory performance for the call order until all defects have been
-corrected.
+Acceptance of services shall be based upon compliance with performance standards
+described in the PWS and surveillance procedures described in this QASP. Before
+approving/certifying any contractor invoices, the COR/ACOR will verify that all
+invoiced services have been performed in compliance with call order
+requirements. The COR/ACOR shall not certify satisfactory performance for the
+call order until all defects have been corrected.
