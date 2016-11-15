@@ -2,7 +2,7 @@ PERFORMANCE BASED QUALITY ASSURANCE SURVEILLANCE PLAN (QASP)
 =============================================================
 
 {{ project_name }}
-=====================================================================================
+=============================================================
 
 INTRODUCTION
 ------------
@@ -24,7 +24,7 @@ required in a satisfactory manner in accordance with the requirements of the
 PWS. The COR/ACOR shall notify the CO for appropriate action if it is likely
 that the contractor will not achieve successful final delivery of the software
 code in accordance with the performance objectives and acceptable quality levels
-(AQLs) identified below.
+identified below.
 
 PERFORMANCE REQUIREMENTS MATRIX
 -------------------------------
@@ -39,7 +39,7 @@ successful final delivery.
 
 Deliverable or Required Services Performance Standard(s):
 
-  **Deliverable or Required Services** | **Performance Standard(s)** | **Acceptable Quality Level (AQL)** | **Method of Surveillance**
+  **Deliverable or Required Services** | **Performance Standard(s)** | **Acceptable Quality Level** | **Method of Surveillance**
    ----------- | ---------------- | -------------- | ---------------
    Tested Code | Code delivered under the order must have substantial test code coverage and a clean code base. | Minimum of 90% test coverage of all relevant code | Combination of manual review and automated testing, using agreed-upon publicly-available SaaS products
    Accessible | Client-side rendering must conform with section 508 standards and WCAG2AA standards. | 0 errors reported for WCAG2AA using an automated scanner, 0 errors reported in manual testing, and all warnings confirmed as non-issues |  http://squizlabs.github.io/HTML_CodeSniffer/ or https://github.com/pa11y/pa11y
