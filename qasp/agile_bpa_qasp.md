@@ -58,7 +58,7 @@ PROCEDURES
 The COR/ACOR, along with the 18F Product Lead and the product owner,
 will inspect all tasks required by the call order to ensure contractor
 compliance with the call order requirements at the conclusion of each
-sprint, which shall have a length of two weeks or less. Delivery will
+sprint, which shall have a length of two weeks or less. Delivery of the code will
 occur by pull request from the contractor’s repository to the 18F
 repository. If inspection results are satisfactory, the pull request
 will be merged; otherwise, deficiencies will be noted in the pull
