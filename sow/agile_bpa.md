@@ -4,7 +4,7 @@
 
 # *and*
 
-# {{requestingAgency.name}}
+# {{requestingAgencyName}}
 
 ## Form 7600B, Attachment A
 
@@ -12,7 +12,7 @@
 
 The U.S. General Services Administration (the Servicing Agency), through its Office of Citizen Services, Innovative Technologies and 18F, builds effective, user-centric digital services focused on the interaction between Government and the people and businesses it serves. 18F helps agencies deliver on their mission through the development of digital and web services. Our mission is to transform the way the government builds and buys IT, with an emphasis on public-facing digital services. One of the services 18F offers to agencies is Acquisition Services where 18F provides hands-on acquisition consulting services to Federal program managers and other leaders who need assistance in procuring software that use modern development techniques (e.g., agile, lean, open source).
 
-For purposes of this Statement of Work (SOW), the Requesting Agency is the {{requestingAgency.name}}. The Requesting Agency requires the services of GSA through 18F to assist in the preparation of essential documents, such as the solicitation, for the procurement of information technology to enable several enterprise endeavors related to separate acquisition activities. {{requestingAgency.objective}}.
+For purposes of this Statement of Work (SOW), the Requesting Agency is the {{requestingAgencyName}}. The Requesting Agency requires the services of GSA through 18F to assist in the preparation of essential documents, such as the solicitation, for the procurement of information technology to enable several enterprise endeavors related to separate acquisition activities. {{projectObjective}}.
 
 Through this agreement, GSA will complete a discovery sprint, scoping workshop, drafting process, and a technical evaluation with the Requesting Agency personnel for award. The discovery sprint will ideally last no more than two weeks, but may go longer if necessary, in order to properly delineate the scope of the challenges to be addressed. It is anticipated that the discovery sprint will result in a set of recommendations for next steps which will focus on successful use of 18F’s Agile Blanket Purchase Agreement (aBPA).
 
