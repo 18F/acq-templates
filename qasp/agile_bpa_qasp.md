@@ -56,7 +56,7 @@ The COR/ACOR, along with the TTS Product Lead and the product owner, will
 inspect all tasks required by the call order to ensure contractor compliance
 with the call order requirements at the conclusion of each sprint, which shall
 have a length of two weeks or less. Delivery of the code will occur by pull
-request from the contractor’s repository to the TTS repository. If inspection
+request from the contractor’s repository to the TTS-owned repository. If inspection
 results are satisfactory, the pull request will be merged; otherwise,
 deficiencies will be noted in the pull request or through issues as described
 below. The COR/ACOR may find the delivery satisfactory even though further work
