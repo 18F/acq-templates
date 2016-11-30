@@ -2,7 +2,7 @@
   "agency": {"name": "FSA",
               "full_name": "Fake Service Agency"},
   "date": "02/01/2016",
-  "doc_type": "Purchase Order"
+  "doc_type": "Purchase Order",
   "sections": ["Definitions", "Services", "Statement of Objectives", "Personnel Requirements", "Inspection and Delivery", "Government Roles", "Special Requirements", "Additional Contract Clauses", "Appendix"],
   "definitions": ["Defintion 1", "Definition 2"],
   "services": {
