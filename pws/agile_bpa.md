@@ -146,13 +146,19 @@ The [GSA Assisted Acquisition Services Business Systems (AASBS) web portal](http
 
 Travel outside of the Baltimore-Washington region is anticipated for the purposes of user research and stakeholder meetings. A separate line item shall be included for travel for each period and the estimated travel expenses are provided below for each period. Travel shall be billed and reimbursed in accordance with the Federal Travel Regulation. All travel must be pre-approved in writing by the COR/ACOR. Travel shall not to be charged as other direct costs (ODC).
 
-> Travel plug in figure \$20,000 limit - Base Period; \$20,000 limit -
-> each Option Period; \$120,000 limit - life of the contract
+| Period         | Limit     |
+| :------------- | :------------- |
+| Base Period       | $20,000       |
+| Option Period       | $20,000       |
+| Contract lifetime       | $120,000       |
 
 A separate line item shall be included for ODC for each period. Included in the ceiling price for each period shall be the estimated other direct costs (ODCs) provided below. All ODCs must be pre-approved in writing by COR/ACOR.
 
-> ODC plug in figure \$500 limit - Base Period; \$500 limit - each
-> Option Period; \$3,000 limit - life of the contract
+| Period         | Limit     |
+| :------------- | :------------- |
+| Base Period       | $500      |
+| Option Period       | $500       |
+| Contract lifetime       | $3,000       |
 
 ### 6.6 Deliverables
 
