@@ -2,6 +2,16 @@
 
 # Python distribution
 #
+## Get dependencies
+if type pip; then
+  pip install pypandoc
+fi
+## Convert camelcase into underscore
+if sed --version; then
+  # We need GNU sed rather than the OSX default, and helpfully GNU sed is the
+  # one of the two that has a --version flag
+  sed -E 's/ buy\.(.+)([A-Z][a-z]+) / \1_\L\2 /g' */*.md
+fi
 ## First, create the bonus Django template folders
 mkdir -p acq_templates/templates/acq_templates
 pushd acq_templates/templates/acq_templates
