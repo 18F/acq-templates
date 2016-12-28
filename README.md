@@ -20,13 +20,15 @@ All templates must be in a [markdown](https://daringfireball.net/projects/markdo
 pip install acq_templates
 ```
 
-To use the templates in a Django project, add `acq_templates` to the `INSTALLED_APPS` in `settings.py`.
+To use the templates in a Django project, add `acq_templates` to the `INSTALLED_APPS` in `settings.py`. While the base templates use camelcasing, the Django package is autoconverted to underscore casing to more closely align with the framework's expectations.
 
 ## Distribution
 
+This should be automatically handled by running [distribute.sh](./distribute.sh), which creates packages for the following languages:
+
 ### Python
 
-Follow the [PyPI upload instructions](https://packaging.python.org/distributing/#uploading-your-project-to-pypi).
+This follows the [PyPI upload instructions](https://packaging.python.org/distributing/#uploading-your-project-to-pypi). The package built for PyPI has a few extra folders. Some of those are packaging metadata, but there's also an `acq_templates` that mirrors the templates into a Django-compatible package.
 
 ## Contributing
 
