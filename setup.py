@@ -1,4 +1,5 @@
 import os
+import re
 import shutil
 import inflection
 from setuptools import setup, find_packages
@@ -21,8 +22,11 @@ except ImportError:
         return open(f, 'r', encoding='utf-8').read()
 
 # Create Django-relevant folders
+if os.path.exists('acq_templates'):
+    shutil.rmtree('acq_templates')
 django_path = 'acq_templates/templates/acq_templates/'
 here = os.scandir('.')
+
 
 for entry in here:
     if not os.path.exists(django_path):
@@ -35,8 +39,24 @@ for entry in here:
             dst=django_path + entry.name
         )
 
-# Convert camelcased fields into underscore
 
+# Convert camelcased fields into underscore
+def convert_underscore(file):
+    with open(file, 'r+') as f:
+        content = f.read()
+        content = re.sub(
+            r'{{ (.+)? }}',
+            lambda x: inflection.underscore(x.group()),
+            content
+        )
+        f.seek(0)
+        f.write(content)
+        f.truncate()
+
+for root, dirs, files in os.walk(django_path):
+    for file in files:
+        if file.endswith(".md"):
+            convert_underscore(os.path.join(root, file))
 
 setup(
     name='acq_templates',
