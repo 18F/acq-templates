@@ -1,5 +1,9 @@
+import os
+import shutil
+import inflection
 from setuptools import setup, find_packages
 
+# Convert Markdown README into reStructured Text
 try:
     from pypandoc import convert
 
@@ -15,6 +19,24 @@ except ImportError:
 
     def read_md(f):
         return open(f, 'r', encoding='utf-8').read()
+
+# Create Django-relevant folders
+django_path = 'acq_templates/templates/acq_templates/'
+here = os.scandir('.')
+
+for entry in here:
+    if not os.path.exists(django_path):
+        os.makedirs(django_path)
+
+    if not entry.name.startswith('.') and entry.is_dir():
+        print(entry.name)
+        shutil.copytree(
+            src=entry.name,
+            dst=django_path + entry.name
+        )
+
+# Convert camelcased fields into underscore
+
 
 setup(
     name='acq_templates',
