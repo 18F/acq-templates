@@ -33,7 +33,6 @@ for entry in here:
         os.makedirs(django_path)
 
     if not entry.name.startswith('.') and entry.is_dir():
-        print(entry.name)
         shutil.copytree(
             src=entry.name,
             dst=django_path + entry.name
