@@ -4,13 +4,12 @@
 #
 ## Get dependencies
 if type pip; then
-  pip install pypandoc inflection
+  pip install twine pypandoc inflection
 fi
 
 ## Build distribution and upload to PyPI
 ## https://packaging.python.org/distributing/
-python setup.py sdist
-python setup.py bdist_wheel
+python setup.py sdist bdist_wheel
 twine upload dist/*
 
 # Node distribution

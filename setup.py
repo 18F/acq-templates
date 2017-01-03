@@ -24,6 +24,12 @@ except ImportError:
 # Create Django-relevant folders
 if os.path.exists('acq_templates'):
     shutil.rmtree('acq_templates')
+if os.path.exists('acq_templates.egg-info'):
+    shutil.rmtree('acq_templates.egg-info')
+if os.path.exists('build'):
+    shutil.rmtree('build')
+if os.path.exists('dist'):
+    shutil.rmtree('dist')
 django_path = 'acq_templates/templates/acq_templates/'
 here = os.scandir('.')
 
@@ -59,7 +65,7 @@ for root, dirs, files in os.walk(django_path):
 
 setup(
     name='acq_templates',
-    version='0.1.0',
+    version='0.1.2',
     url='https://github.com/18F/acq-templates',
     license='CC0-1.0',
     description='Markdown templates designed for acquisitions by the United '
@@ -67,7 +73,10 @@ setup(
     long_description=read_md('README.md'),
     author='TTS Office of Acquisitions',
     author_email='',
-    packages=find_packages(),
+    packages=['acq_templates'],
+    package_data={
+        'acq_templates': ['acq_templates/*']
+    },
     include_package_data=True,
     install_requires=[],
     classifiers=[
