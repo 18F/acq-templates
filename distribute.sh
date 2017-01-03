@@ -17,7 +17,7 @@ twine upload dist/*
 #
 ## Publish to NPM
 # TODO: add package.json
-npm publish
+# npm publish
 
 # Ruby distribution
 #
