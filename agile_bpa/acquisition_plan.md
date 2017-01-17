@@ -5,18 +5,18 @@ Acquisition Plan for {{ buy.name }} | {{ date }}
 | Plan ID            | {{ id }}     |
 |--------------------|-------------------------|
 | Project Title      | {{ buy.name }}          |
-| Plan Status        | {{ buy.acquisitionPlanStatus }}   |
+| Plan Status        | {{ buy.acquisitionPlanReview }}   |
 | Project Number(s)  | {{ buy.id }}            |
 | Solicitation Number| {{ buy.rfqId }}         |
 | Estimated Dollar Value | {{ buy.dollars }}     |
-| Nature of Action   | {{ buy.procurementVehicle }}  |
+| Nature of Action   | {{ buy.procurementMethod }}  |
 | Region             | Central Office<br />Service Central Office - General Services Administration<br />Office of Citizen Services and Communications   |
 | Requiring Agency   | {{ buy.project.iaa.client.agency }}   |
 | Bureau             | {{ buy.project.iaa.client.name }} |
 | High Risk?         | No                      |
 | Small Business Set-aside? | {{ buy.setAsideStatus }} |
 | General Counsel Participation Needed? | No      |
-| Level of Competition | {{ buy.competitionType }} |
+| Level of Competition | {{ buy.competitionStrategy }} |
 
 [*Review GSAM 507.105 Contents of acquisition plans.*](http://farsite.hill.af.mil/vfgsara.htm)
 
