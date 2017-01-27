@@ -4,7 +4,7 @@
 
 # *and*
 
-# {{requestingAgency.name}}
+# {{ buy.requestingAgency.name }}
 
 ## Form 7600B, Attachment A
 
@@ -12,7 +12,7 @@
 
 The U.S. General Services Administration, the Servicing Agency, through its Office of Citizen Services Innovative Technologies and 18F, builds effective, user-centric digital services focused on the interaction between Government and the people and businesses it serves. 18F helps agencies deliver on their mission through the development of digital and web services. Our mission is to transform the way the government builds and buys information technology, IT, with an emphasis on public-facing digital services. One of the ways 18F offers assistance to other agencies is through Acquisition Services whereby 18F provides hands-on, acquisition-oriented consulting services to Federal program managers and other leaders who need assistance in procuring software that uses modern development methodologies and techniques, such as agile, lean, open source.
 
-For purposes of this Statement of Work (SOW), the Requesting Agency is the {{requestingAgency.name}}. The Requesting Agency requires the services of GSA through 18F to assist in the preparation of essential documents, such as the solicitation, for the procurement of information technology to enable several enterprise endeavors related to separate acquisition activities. {{requestingAgency.objective}}.
+For purposes of this Statement of Work (SOW), the Requesting Agency is the {{ buy.requestingAgency.name }}. The Requesting Agency requires the services of GSA through 18F to assist in the preparation of essential documents, such as the solicitation, for the procurement of information technology to enable several enterprise endeavors related to separate acquisition activities. {{ buy.requestingAgency.objective }}.
 
 Through this agreement, GSA will deliver digital services and product features through the use of auctions on the 18F digital auctions platform. To do so, GSA will scope the requirements, identify of acceptance criteria, run the auction, and evaluate the deliverable. The performance period from close of auction to evaluation of the deliverable will ideally last one week, but may go longer if the scoping determines that it is necessary. If the deliverable does not meet the acceptance criteria, the auction may be rerun at the discretion of the Requesting Agency.
 
@@ -72,7 +72,7 @@ The Servicing Agency shall deliver to the Requesting Agency the following:
 
 | Item | Due By |
 |------------------------------------------------------------------------------------------|----------------------------------------------|
-| Micro-purchase auctions | {{firstItemStartDate}} |
+| Micro-purchase auctions | {{ buy.firstItemStartDate }} |
 | Delivery of Minimally Viable Product (MVP) period of performance of Agile BPA Task Order | < 7 business days from completion of auction |
 
 ### 6.0. PROJECT STATUS AND REPORTING

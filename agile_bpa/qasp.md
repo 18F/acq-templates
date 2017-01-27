@@ -1,7 +1,7 @@
 PERFORMANCE BASED QUALITY ASSURANCE SURVEILLANCE PLAN (QASP)
 =============================================================
 
-{{ projectName }}
+{{ buy.name }}
 =============================================================
 
 INTRODUCTION

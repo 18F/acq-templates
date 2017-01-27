@@ -4,7 +4,7 @@
 
 # *and*
 
-# {{requestingAgency.name}}
+# {{ buy.requestingAgency.name }}
 
 ## Form 7600B, Attachment A
 
@@ -12,7 +12,7 @@
 
 The U.S. General Services Administration, the Servicing Agency, through its Office of Citizen Services Innovative Technologies and 18F, builds effective, user-centric digital services focused on the interaction between Government and the people and businesses it serves. 18F helps agencies deliver on their mission through the development of digital and web services. Our mission is to transform the way the government builds and buys information technology, IT, with an emphasis on public-facing digital services. One of the ways 18F offers assistance to other agencies is through Acquisition Services whereby 18F provides hands-on, acquisition-oriented consulting services to Federal program managers and other leaders who need assistance in procuring software that uses modern development methodologies and techniques, such as agile, lean, open source.
 
-For purposes of this Statement of Work (SOW), the Requesting Agency is the {{requestingAgency.name}}. The Requesting Agency requires the services of GSA through 18F to assist in the preparation of essential documents, such as the solicitation, for the procurement of information technology to enable several enterprise endeavors related to separate acquisition activities. {{requestingAgency.objective}}.
+For purposes of this Statement of Work (SOW), the Requesting Agency is the {{ buy.requestingAgency.name }}. The Requesting Agency requires the services of GSA through 18F to assist in the preparation of essential documents, such as the solicitation, for the procurement of information technology to enable several enterprise endeavors related to separate acquisition activities. {{ buy.requestingAgency.objective }}.
 
 Through this agreement, GSA will complete a discovery sprint, scoping workshop, drafting process, and a technical evaluation with the Requesting Agency personnel for award. The discovery sprint will ideally last no more than two weeks, but may go longer if necessary, in order to properly delineate the scope of the challenges to be addressed. It is anticipated that the discovery sprint will result in a set of recommendations for next steps which will focus on successful ghostwriting activities. Following the discovery period, 18F will conduct solicitation (RFx) workshops with subsequent drafting of necessary documents, contingent on the acquisition strategy. The RFx workshop and drafting process shall include, at a minimum, the following: reviewing any relevant proposed procurement artifacts, generating new documents to satisfy the requirements, and ensure proper alignment so that any procurement process takes full advantage of leading acquisition practices, such as modular procurement, modern digital practices, such as user-centered design, agile development, application programming interfaces, and open source technologies.
 
@@ -69,7 +69,7 @@ following:
 
 | **Item **                                                                                                                                | **Due By **          |
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Solicitation (RFx) Workshop agreed upon by both parties.                                                                             | {{workshopDate}} |
+| Solicitation (RFx) Workshop agreed upon by both parties.                                                                             | {{ buy.workshopDate }} |
 | Written acquisition strategy,< 7 business days from workshop start                                                                   | < 7 business     |
 | New drafted solicitation (RFx) based on workshop outputs and consensus around strategy recommendations days from workshop conclusion | < 20 business    |
 
