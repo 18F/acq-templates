@@ -78,7 +78,7 @@ setup(
         'acq_templates': ['acq_templates/*']
     },
     include_package_data=True,
-    install_requires=[],
+    install_requires=['inflection','pypandoc'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
