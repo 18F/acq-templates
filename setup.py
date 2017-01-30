@@ -1,7 +1,6 @@
 import os
 import re
 import shutil
-import inflection
 from setuptools import setup, find_packages
 
 # Convert Markdown README into reStructured Text
@@ -11,7 +10,7 @@ try:
     def read_md(f):
         return convert(
             f,
-            to='rst',
+            'rst',
             format='markdown_github'
         )
 except ImportError:
@@ -45,13 +44,20 @@ for entry in here:
         )
 
 
+first_cap_re = re.compile('(.)([A-Z][a-z]+)')
+all_cap_re = re.compile('([a-z0-9])([A-Z])')
+def _convert(name):
+    s1 = first_cap_re.sub(r'\1_\2', name)
+    return all_cap_re.sub(r'\1_\2', s1).lower()
+
+
 # Convert camelcased fields into underscore
 def convert_underscore(file):
     with open(file, 'r+') as f:
         content = f.read()
         content = re.sub(
             r'{{ (.+)? }}',
-            lambda x: inflection.underscore(x.group()),
+            lambda x: _convert(x.group()),
             content
         )
         f.seek(0)
@@ -78,7 +84,6 @@ setup(
         'acq_templates': ['acq_templates/*']
     },
     include_package_data=True,
-    install_requires=['inflection','pypandoc'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
