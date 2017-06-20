@@ -218,6 +218,9 @@ awardKeyPersonnel2: ""
 # Key Personnel 3
 awardKeyPersonnel3: ""
 
+# What are the trade offs being made to determine who should be awarded the contract?
+awardTradeOffs: ""
+
 # -------------
 # Milestones
 # -------------
