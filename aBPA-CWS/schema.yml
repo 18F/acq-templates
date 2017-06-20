@@ -40,6 +40,9 @@ urlIAAPartA: ''
 # What is the Google Drive URL for the executed IAA Part B?
 urlIAAPartB: ''
 
+# What is the Google Drive URL for the completed IGCE?
+urlIGCE: ''
+
 # What is the Google Drive URL for the executed IX?
 urlIX: ''
 
@@ -146,7 +149,14 @@ iaaColor: ''
 iaaServices: ''
 
 # Please provide basic details about any previous acquisition history such as a link to the previous IAA, the previous IX, and the previous GitHub repos (both for the solicitation documents and the project itself), among any other information you think would be useful. (If none, please leave blank and skip this question.)
+iaaPreviousContractNumbers: ''
 iaaHistory: ''
+
+# Are there any other companies involved? (If none, please leave blank and skip this question.)
+iaaOtherCompaniesInvolved: ''
+
+# Are there any non-technical constraints or risks that are unique to this project? (If none, please leave blank and skip this question.)
+iaaSpecialConcerns: ''
 
 # -------------
 # Defining the 'ask'
@@ -174,7 +184,10 @@ awardIGCE: ''
 # What is the period of performance? (Please include whether the number is in terms of weeks, months, or years.)
 awardPOP: ''
 
-# Are there any important customer deadlines or notes that should be kept in mind? (If none, please leave blank and skip this question.)
+# Is there a desired award date? (If so, please use the MM/DD/YYYY format. If not, please leave blank and skip question)
+awardDesired: ''
+
+# Are there any other important customer deadlines or notes that should be kept in mind? (If none, please leave blank and skip this question.)
 awardDeadlines: ''
 
 # There are 13 labor categories in the aBPA.
