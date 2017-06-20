@@ -1,4 +1,3 @@
-## {{projectTitle}}
 # NCR Executive Summary
 
 ## Project details
@@ -53,6 +52,7 @@
 {{previous-history}}
 
 ## Actionable acquisition package
-- [Main NCR Google Drive folder]({{}})
-- [Executed IAA]({{}})
-- [Executed IX]({{}})
+- [Main NCR Google Drive folder] {{urlNCR}}
+- [Executed IAA Part A]({{urlIAAPartA}})
+- [Executed IAA Part B]({{urlIAAPartB}})
+- [Executed IX]({{urlIX}})
