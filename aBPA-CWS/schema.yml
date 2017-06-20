@@ -1,8 +1,246 @@
-# What is the Requesting Agency?
-requestingAgencyName: ''
+# This form will allow you to create an NCR-approved set of aBPA acquisition and solicitation documents for your project. References will be made to sections of your IAA and IX, so it may be useful to keep those documents open in another tab while you complete this form.
 
-# What is the project's objective?
-projectObjective: ''
+# What you need:
+# - Executed IAA
+# - Executed IX
+# - IGCE
+# - A GitHub repo for the solicitation documents
+# - A Google Form that will serve as your RFQ response form
 
-# When does the first Item start?
-firstItemStartDate: ''
+# This form will create:
+# - NCR Executive Summary
+# - Market Research Report
+# - RFQ
+# - QASP
+# - Milestones
+# - Acquisition Plan
+# - Verbal Presentation Questions
+
+# VERY IMPORTANT NOTE: None of this is "final" in the sense that you can fire it off to NCR without looking at it. Please make sure you review the output and do any final tweaks required.
+
+# Useful tips to use this tool:
+# - Please put your answers in between the two apostrophes ('). 
+# - Make sure you "Copy Data" before switching to another form. If you don't, YOU WILL LOSE EVERYTHING and have to start over.
+
+# Let's get started!
+
+# -------------
+# Important links
+# -------------
+
+# What  is the Google Drive URL for the main project folder?
+urlMain: ''
+
+# What  is the Google Drive URL for the NCR folder?
+urlNCR: ''
+
+# What is the Google Drive URL for the executed IAA Part A?
+urlIAAPartA: ''
+
+# What is the Google Drive URL for the executed IAA Part B?
+urlIAAPartB: ''
+
+# What is the Google Drive URL for the executed IX?
+urlIX: ''
+
+# What is the GitHub URL for the solicitation documents?
+urlGitHub: ''
+
+# What is the URL for the RFQ Google Form response form?
+urlRFQForm: ''
+
+# -------------
+# Project details
+# -------------
+
+# What is the title of your project? See: Section B.5., IAA
+projectTitle: ''
+
+# What is the requiring agency? See: Section A.4.(a), IAA
+reqAgency: ''
+
+# What is the requiring agency's abbreviation?
+reqAgencyAbbrev: ''
+
+# What is the specific bureau within the agency requesting assistance? See: Section A.4.(a), IAA
+reqAgencyBureau: ''
+
+# What is the requiring agency bureau's abbreviation?
+reqAgencyBureauAbbrev: ''
+
+# -------------
+# Points of contact
+# -------------
+
+# Requesting Agency
+# -------
+
+# Who will be the Product Owner (PO)?
+pocPO: ''
+
+# What is the PO's email address?
+pocPOEmail: ''
+
+# Who will be the Business Owner (BO)?
+pocBO: ''
+
+# What is the BO's email address?
+pocBOEmail: ''
+
+# NCR
+# -------
+
+# Who will be the Contracting Officer?
+pocCO: ''
+
+# What is the CO's email address?
+pocCOEmail: ''
+
+# Who will be the Contracting Specialist?
+pocCS: ''
+
+# What is the CS's email address?
+pocCSEmail: ''
+
+# Who will be the Contracting Officer Representative (COR)?
+pocCOR: ''
+
+# What is the COR's email address?
+pocCOREmail: ''
+
+# TTS
+# -------
+
+# Who will be the Contract Lead?
+pocCL: ''
+
+# What is the Contract Lead's email address?
+pocCLEmail: ''
+
+# Who will be the Tech Lead?
+pocTL: ''
+
+# What is the Tech Lead's email address?
+pocTLEmail: ''
+
+# Who will be the Product Lead?
+pocPL: ''
+
+# What is the Product Lead's email address?
+pocPLEmail: ''
+
+# -------------
+# Contract details
+# -------------
+
+# What is the IAA number? See: Section B.3., IAA
+iaaNumber: ''
+
+# What is the total amount of funds being obligated by the Requiring Agency to GSA? See: Section B.10., IAA
+iaaTotal: ''
+
+# What is the color of money? See: Section B.10., IAA (one-year, two-year, no-year)
+iaaColor: ''
+
+# What type of services are being provided? See: Section B.11., IAA
+iaaServices: ''
+
+# Please provide basic details about any previous acquisition history such as a link to the previous IAA, the previous IX, and the previous GitHub repos (both for the solicitation documents and the project itself), among any other information you think would be useful. (If none, please leave blank and skip this question.)
+iaaHistory: ''
+
+# -------------
+# Defining the 'ask'
+# -------------
+
+# What is a one-sentence description of the project?
+askOneLine: ''
+
+# What is the background and what are the objectives of this project?
+askBackground: ''
+
+# What are the exact user stories, features, and/or tasks you are requesting the vendor perform?
+askStories: ''
+
+# What are the technical constraints?
+askTechConstraints: ''
+
+# -------------
+# Award details
+# -------------
+
+# What is the estimated dollar value of the award? See: Total Price, IGCE
+awardIGCE: ''
+
+# What is the period of performance? (Please include whether the number is in terms of weeks, months, or years.)
+awardPOP: ''
+
+# Are there any important customer deadlines or notes that should be kept in mind? (If none, please leave blank and skip this question.)
+awardDeadlines: ''
+
+# There are 13 labor categories in the aBPA.
+
+# They are:
+# 1. Product Manager
+# 2. Technical Architect
+# 3. Interaction Designer / User Researcher / Usability Tester
+# 4. Writer / Content Designer / Content Strategist
+# 5. Visual Designer
+# 6. Frontend Web Developer
+# 7. Backend Web Developer
+# 8. Devops Engineer
+# 9. Security Engineer
+# 10. Delivery Manager
+# 11. Agile Coach
+# 12. Business Analyst
+# 13. Digital Performance Analyst
+
+# Please select 3 of them to represent Key Personnel. You can also allow a Contractor to propose a Key Personnel member or have them choose among a shorter list (eg, 'Offeror must choose one of the following: Technical Architect, Backend Developer, or Frontend Developer').
+
+# Key Personnel 1
+awardKeyPersonnel1: ''
+
+# Key Personnel 2
+awardKeyPersonnel2: ''
+
+# Key Personnel 3
+awardKeyPersonnel3: ''
+
+# -------------
+# Milestones
+# -------------
+
+# When will the acquisition package be delivered to NCR?
+dateAPDelivery: 'MM/DD/YYYY'
+
+# When will the acquisition plan and solicitation documentation be approved by NCR? (generally 14 days later)
+dateAPApproval: 'MM/DD/YYYY'
+
+# When will NCR issue the solicitation on eBuy and will TTS will be required to issue the solicitation on GitHub? (generally the same day and 7 days later)
+dateIssue: 'MM/DD/YYYY'
+
+# When will the vendors be required to provide their final set of questions on GitHub? (generally 3 days later)
+dateQuestions: 'MM/DD/YYYY'
+
+# When will NCR provide answers to the vendor's questions and when will TTS provide those answers to the vendors on GitHub. Note: any required Amended RFQ must also be issued on the same day. (generally 9 days later)
+dateAnswers: 'MM/DD/YYYY'
+
+# When will the vendors be required to submit their proposals? (generally 4 days later)
+dateSubmit: 'MM/DD/YYYY'
+
+# When will NCR complete their pass/fail compliance check? (generally 4 days later)
+dateCompliance: 'MM/DD/YYYY'
+
+# When will TTS complete their review of the written proposals? (generally 7 days later)
+dateWritten: 'MM/DD/YYYY'
+
+# When will TTS, NCR, and the vendors get together for a verbal presentation? (generally 4 days later)
+dateVerbal: 'MM/DD/YYYY'
+
+# When will TTS provide NCR with their consensus report? (generally 16 days later)
+dateConsensus: 'MM/DD/YYYY'
+
+# When will NCR complete the contract preparation, review, and clearance? (generally 7 days later)
+dateContract: 'MM/DD/YYYY'
+
+# When will the contract be awarded? (generally 14 days later)
+dateAward: 'MM/DD/YYYY'
