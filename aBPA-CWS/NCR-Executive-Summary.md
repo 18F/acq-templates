@@ -1,3 +1,4 @@
+## {{projectTitle}}
 # NCR Executive Summary
 
 ## Project details
