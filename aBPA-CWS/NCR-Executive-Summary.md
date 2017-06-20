@@ -52,7 +52,7 @@
 {{previous-history}}
 
 ## Actionable acquisition package
-- [Main NCR Google Drive folder]{{urlNCR}}
+- [Main NCR Google Drive folder]({{urlNCR}})
 - [Executed IAA Part A]({{urlIAAPartA}})
 - [Executed IAA Part B]({{urlIAAPartB}})
 - [Executed IX]({{urlIX}})
