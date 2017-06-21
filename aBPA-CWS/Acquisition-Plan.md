@@ -26,7 +26,7 @@ Level of Competition: Full and Open Competition After the Exclusion of Sources (
 ## 7.105(a) Acquisition background and objectives
 ### 7.105(a)(1) Statement of need
 #### Background and Objectives	
-{{paragraphSplit askBackground}}	
+{{paragraphSplit}}{{askBackground}}	
 
 #### Contractual history	
 {{iaaHistory}}
