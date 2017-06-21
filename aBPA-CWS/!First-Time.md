@@ -23,13 +23,13 @@ In between the two sentences, specifically, the space between the `.` and the `I
 
 Add an `\r\r` for each paragraph. For example:
 
-`ackBackground:"I want to buy something.\r\rI want to be joyful when I buy it.\r\rIn fact, I want to be moved to throw a parade."`
+`askBackground:"I want to buy something.\r\rI want to be joyful when I buy it.\r\rIn fact, I want to be moved to throw a parade."`
 
 ## Make bullet points
 
 After the `\r\r`, put a `+` sign and then a space with the bullet. Example:
 
-`ackBackground: "line 1\r\rline 2\r\r+ bullet 1\r\r+bullet 2"`
+`askBackground: "line 1\r\rline 2\r\r+ bullet 1\r\r+bullet 2"`
 
 ## LifeProTip
 
