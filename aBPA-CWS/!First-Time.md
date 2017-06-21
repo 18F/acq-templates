@@ -13,6 +13,8 @@ Watch in between this line to see what happens:
 
 In the box on the left, find (CTRL+F or CMD+F) the variable `askBackground`.
 
+**Note, when you copy the examples, the space between the `:` and the `"` will sometimes disappear. You need that space.**
+
 In between the two quotation marks, type in two sentences you want to show up as paragraphs. Example:
 
 `askBackground: "I want to buy something. I want to be joyful when I buy it."`
