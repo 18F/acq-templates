@@ -15,15 +15,15 @@ In the box on the left, find (CTRL+F or CMD+F) the variable `askBackground`.
 
 In between the two quotation marks, type in two sentences you want to show up as paragraphs. Example:
 
-`askBackground:"I want to buy something. I want to be joyful when I buy it."`
+`askBackground: "I want to buy something. I want to be joyful when I buy it."`
 
 In between the two sentences, specifically, the space between the `.` and the `I`, put in `\r\r` so it looks like this:
 
-`askBackground:"I want to buy something.\r\rI want to be joyful when I buy it."`
+`askBackground: "I want to buy something.\r\rI want to be joyful when I buy it."`
 
 Add an `\r\r` for each paragraph. For example:
 
-`askBackground:"I want to buy something.\r\rI want to be joyful when I buy it.\r\rIn fact, I want to be moved to throw a parade."`
+`askBackground: "I want to buy something.\r\rI want to be joyful when I buy it.\r\rIn fact, I want to be moved to throw a parade."`
 
 ## Make bullet points
 
