@@ -1,6 +1,7 @@
 ## {{projectTitle}}
-# Request for Quotation (RFQ)
 ## Agile Delivery Services Blanket Purchase Agreement
+# Request for Quotation
+## Quality Assurance Surveillance Plan (“QASP”)
 
 ## 0.0 Introduction
 The Technology Transformation Service has developed this Quality Assurance Surveillance Plan (QASP) to evaluate contractor actions while implementing the Performance Work Statement (PWS). It is designed to provide an effective surveillance method of monitoring contractor performance for each listed objective on the Performance Requirements Summary in the call order. It also provides a systematic method to evaluate the services the contractor is required to furnish.
@@ -15,12 +16,11 @@ The contracting officer (CO) is responsible for monitoring contract compliance, 
 The contracting officer’s representative (COR) is designated in writing by the CO to act as his or her authorized representative to assist in administering a contract. COR limitations are contained in the written appointment letter. The COR is responsible for technical administration of the project and ensures proper government surveillance of the contractor’s performance. The COR is not empowered to make any contractual commitments or to authorize any contractual changes on the government’s behalf. Any changes that the contractor deems may affect contract price, terms, or conditions shall be referred to the CO for action.  The COR will have the responsibility for completing QA monitoring forms used to document the inspection and evaluation of the contractor’s work performance. Government surveillance may occur under the inspection of services clause for any service relating to the contract.
  
 ## 4.0 Performance Requirements Summary
-The COR will evaluate the performance objectives through surveillance as reflected below by reviews and acceptance of work products and services. As indicated, the COR will assess progress towards the final delivered software code. Note that the performance requirements listed below are required for the final deliverable. However, the sprints and incremental delivery of code will be assessed by the government to ensure that the contractor is on a path to
-successful final delivery. 
+The COR will evaluate the performance objectives through surveillance as reflected below by reviews and acceptance of work products and services. As indicated, the COR will assess progress towards the final delivered software code. Note that the performance requirements listed below are required for the final deliverable. However, the sprints and incremental delivery of code will be assessed by the government to ensure that the contractor is on a path to successful final delivery. 
  
 Deliverable or Required Services Performance Standard(s):
  
-  **Deliverable or Required Services** | **Performance Standard(s)** | **Acceptable Quality Level** | **Method of Surveillance**
+   **Deliverable or Required Services** | **Performance Standard(s)** | **Acceptable Quality Level** | **Method of Surveillance**
    ----------- | ---------------- | -------------- | ---------------
    Tested Code | Code delivered under the order must have substantial test code coverage and a clean code base | Minimum of 90% test coverage of all relevant code | Combination of manual review and the results from automated testing
    Error-free Code | [18F Front End Guide](https://frontend.18f.gov/) | 0 linting errors and 0 warnings | Combination of manual review and the results from automated testing
