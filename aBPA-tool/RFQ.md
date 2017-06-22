@@ -12,6 +12,7 @@ To fulfill the objectives for performance of this task order, the Vendor must me
 
 ### 2.1 Tasks
 The Vendor will provide the following services:
+
 {{askStories}}
 
 The Vendor is not responsible for performing the following:
@@ -20,6 +21,7 @@ The Vendor is not responsible for performing the following:
 
 ### 2.2 Application constraints
 The {{projectTitle}} must be developed using acceptable technology within {{reqAgencyAbbrev}} {{reqAgencyBureauAbbrev}}'s standards, including:
+
 {{askTechConstraints}}
 
 ### 2.3 Additional requirements
