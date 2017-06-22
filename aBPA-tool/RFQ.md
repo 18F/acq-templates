@@ -141,7 +141,7 @@ To make the process easier for potential Offerors, we have provided a Google For
  
 **Written technical quotes will only be accepted via the provided Google Form.**
  
-**The Google Form is available [here]({{urlRFQForm).**
+**The Google Form is available [here]({{urlRFQForm}}).**
 
 #### 5.2.2 Written price quote
 Offerors must submit a separate price quotation using the provided worksheet template in the eBuy system. **The price quotation must be received no later than the due date indicated above.**
